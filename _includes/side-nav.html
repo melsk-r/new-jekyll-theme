@@ -1,3 +1,17 @@
+{% if site.standard_family == "ZGW" %}
+  <div class="header">API's voor zaakgericht werken</div>
+    <nav class="nav flex-column">
+      <a class="nav-link active" href="/gemma-zaken/" target="">Home</a>
+      <a class="nav-link" href="/gemma-zaken/productvisie/" target="">Productvisie</a>
+      <a class="nav-link" href="/gemma-zaken/standaard/" target="">Standaard</a>
+      <a class="nav-link" href="/gemma-zaken/ontwikkelaars/" target="">Ontwikkelaars</a>
+      <a class="nav-link" href="/gemma-zaken/themas/" target="">Thema's</a>
+      <a class="nav-link" href="/gemma-zaken/beheer/" target="">Beheer</a>
+      <a class="nav-link" href="/gemma-zaken/doorontwikkeling/" target="">Doorontwikkeling</a>
+      <a class="nav-link" href="/gemma-zaken/contact/" target="">Contact</a>
+    </nav>
+  </div>
+{% endif %}
 {% for item in site.nav %}
 	<div class="header">{{ item.title }}</div>
 	<nav class="nav flex-column">
