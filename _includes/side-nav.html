@@ -1,5 +1,5 @@
 {% if site.standard_family == "ZGW" %}
-  {% render Side-nav-ZGW.html  nav=item.subnav %}
+  {% include Side-nav-ZGW.html  nav=item.subnav %}
 {% endif %}
 {% for item in site.nav %}
   <div class="header">{{ item.title }}</div>
